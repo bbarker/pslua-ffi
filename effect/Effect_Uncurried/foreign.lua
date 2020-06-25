@@ -1,3 +1,4 @@
+-- REVIEW: currying
 local mkEffectFn1 = function(fn)
     return function(x)
         return fn(x)()
